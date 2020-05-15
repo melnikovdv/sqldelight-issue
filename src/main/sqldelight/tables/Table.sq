@@ -10,4 +10,4 @@ INSERT OR REPLACE INTO myTable(field1, field2) VALUES ?;
 select:
 SELECT *
 FROM myTable
-WHERE field1 IN ? AND field2 = ?;
+WHERE field2 = ? AND field1 IN ?;
